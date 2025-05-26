@@ -71,7 +71,8 @@ Car damage detection is a crucial task in the automotive industry for insurance 
 ### 6. 📈 Model Evaluation
 
 * Evaluated final model using:
-  -**Confusion Matrix**:Shows how well a classification model predicts classes by comparing actual vs. predicted labels.
+  
+    -**Confusion Matrix**:Shows how well a classification model predicts classes by comparing actual vs. predicted labels.
   
     -**Accuracy**: Correctly predicted instances.
   
