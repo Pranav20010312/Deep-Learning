@@ -64,38 +64,38 @@ Car damage detection is a crucial task in the automotive industry for insurance 
 
 * Used **Optuna** for tuning hyperparameters:
 
-  * Learning rate
-  * Dropout rate
-  * Optimizer settings
-* **ResNet** with optimized parameters achieved superior performance and generalization.
+  * Learning rate.
+  * Dropout rate.
+  * Optimizer settings.
 
 ### 6. 📈 Model Evaluation
 
 * Evaluated final model using:
-    -Confusion Matrix:Shows how well a classification model predicts classes by comparing actual vs. predicted labels.
-    -Accuracy: Correctly predicted instances
-    -Precision: Proportion of positive predictions that are correct
-    -Recall: Proportion of actual positives that were predicted
-    -F1 Score: The harmonic mean of Precision and Recall
+  -**Confusion Matrix**:Shows how well a classification model predicts classes by comparing actual vs. predicted labels.
+  
+    -**Accuracy**: Correctly predicted instances.
+  
+    -**Precision**: Proportion of positive predictions that are correct.
+  
+    -**Recall**: Proportion of actual positives that were predicted.
+  
+    -**F1 Score**: The harmonic mean of Precision and Recall.
 
 
 ---
 
 ## 📊 Results
 
-* **Best Model:** ResNet with fine-tuned `layer4` and custom FC head.
-* **Key Result:** Significant reduction in overfitting after applying transfer learning and hyperparameter tuning.
-* **Performance:** Achieved strong generalization on unseen validation data.
-* **Scalability:** Framework is extendable to more car views and fine-grained damage classification with larger datasets.
+The  model, **ResNet**  with optimized parameters , delivered the best results. Transfer learning and hyperparameter tuning significantly reduced overfitting, enabling the model to perform well on unseen data.
 
 ---
 
 ## 💼 Business Impact
 
-* 📌 **Faster & Automated Damage Detection:** Eliminates the need for time-consuming manual inspections.
-* 📌 **Accurate Car Pricing:** Assists used car marketplaces in setting fair and competitive prices based on damage levels.
-* 📌 **Rapid Insurance Claim Processing:** Benefits Property & Casualty insurers and enhances customer satisfaction with faster claim settlements.
-* 📌 **Operational Efficiency:** Streamlines inspection workflows for fleet managers and dealerships.
+* **Faster & Automated Damage Detection:** Eliminates the need for time-consuming manual inspections.
+* **Accurate Car Pricing:** Assists used car marketplaces in setting fair and competitive prices based on damage levels.
+* **Rapid Insurance Claim Processing:** Benefits Property & Casualty insurers and enhances customer satisfaction with faster claim settlements.
+* **Operational Efficiency:** Streamlines inspection workflows for fleet managers and dealerships.
 
 
 
