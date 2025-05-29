@@ -4,6 +4,13 @@
 
 Car damage detection is a crucial task in the automotive industry for insurance claims, resale value estimation, and fleet maintenance. In this project, the goal is to develop a deep learning model for **Vroom Cars** that can **classify front and rear car images into six predefined damage categories**. The task involves training a robust classification model capable of generalizing to unseen car images.
 
+## 🚘 Vehicle Damange Detection App
+This app allows you to drag and drop an image of a car, and it will identify the type of damage present. 
+
+![App Preview](APP.jpg)
+
+
+
 ---
 
 ## 🧠 Technologies & Tools Used
